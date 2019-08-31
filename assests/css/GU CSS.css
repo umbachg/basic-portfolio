@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(./seigaiha.png);
+	color: rgb(85, 87, 88)
+}
+/* header
+******************* */
+header{
+	
+	background-color: whitesmoke;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-bottom: #cccccc 2px solid;
+}
+
+.prt-of-header {
+	max-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+
+.navlinks {
+	align-self: center;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777777;
+	display: flex;
+}
+
+.nav a {
+	margin-left: 30px;
+	text-decoration: none;
+}
+/* the middle
+*************** */
+h2 {
+	color: rgb(101, 190, 190);
+}
+
+#bio-image {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+section {
+	max-width: 960px;
+	margin: 80px;
+	padding: 40px;
+	background-color: whitesmoke;
+	border-color: rgb(225, 231, 231);
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+
+/* footer
+************* */
+
