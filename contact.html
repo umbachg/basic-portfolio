@@ -11,36 +11,44 @@
 
 <body>
     <header>
-        <div class="prt-of-header">
-            <nav>
+        <div class="container">
+            <section id="logo">
                 <h1>Gabrielle Umbach</h1>
+            </section>
+
+            <nav>
                 <div class="navlinks">
-                    <a href="./Index_GU.html">About</a>
-                    <a href="./portfolio.html">Portfolio</a>
-                    <a href="./contact.html">Contact</a>
+                    <ul>
+                        <li><a href="./Index_GU.html">About</a></li>
+                        <li>|</li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li>|</li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
     </header>
 
-    <section>
-        <h2>Contact</h2>
-        <hr>
+    <div class="container">
+        <section id="contact">
+            <h2>Contact</h2>
+            <hr>
 
-        <form>
-            Name:<br>
-            <input type="text" name="FullName"></br>
-            Email:<br>
-            <input type="text" name="Email"></br>
-            Message:<br>
-            <textarea name="Message" style="width:700px; height:150px;">
+            <form>
+                Name:<br>
+                <input type="text" name="FullName"></br>
+                Email:<br>
+                <input type="text" name="Email"></br>
+                Message:<br>
+                <textarea name="Message">
             type message here
             </textarea></br>
-            <input type="submit" value="Submit">
-        </form>
-
-    </section>
-
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
 </body>
+<footer class="sticky">&#169; Gabrielle</footer>
 
 </html>
